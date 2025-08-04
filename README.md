@@ -20,3 +20,14 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+
+
+## Minhas Implementações
+
+Para resolver o desafio, segui os seguintes passos:
+
+- Adicionei as propriedades **Modelo**, **IMEI** e **Memoria** na classe abstrata `Smartphone`, conforme o diagrama proposto.
+- Ajustei o construtor da classe `Smartphone` para receber e inicializar essas novas propriedades.
+- Implementei as classes filhas `Nokia` e `Iphone`, herdando de `Smartphone` e sobrescrevendo o método `InstalarAplicativo` com mensagens personalizadas para cada marca.
+- Realizei testes no arquivo `Program.cs`, criando instâncias das duas marcas, chamando os métodos de ligar, receber ligação e instalar aplicativos, garantindo o funcionamento correto das implementações.
